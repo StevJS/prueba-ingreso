@@ -27,9 +27,9 @@ La instrucción iniciará el proyecto en su entorno local y se abrirá en el nav
 
 ## 2. Instrucciones de la prueba:
 
-##El mapa debe visualizar el municipio de YOPAL
+##El mapa debe visualizar el municipio de REPELON
 
-    2.1 Localizar el mapa en el municipio de YOPAL
+    2.1 Localizar el mapa en el municipio de REPELON
 
     2.2 Cambiar el mapa base y ajustar el mapa al 100% de la pantalla
 
@@ -37,16 +37,16 @@ La instrucción iniciará el proyecto en su entorno local y se abrirá en el nav
 
     2.4 Añadir un marker en el centro del mapa
 
-    2.5 Del siguiente servidor de mapas con url http://34.132.27.64:8080/geoserver/
+    2.5 Del siguiente servidor de mapas con url http://34.73.64.218:8080/geoserver/web/
 
     2.5.1 Se debe cargar las capas 
-        yopal:r_perimetro
-        yopal:u_terreno
+        repelon:rp_gc_predios_catastro
+        repelon:rp_u_perimetro
 
     2.5.2 Al darle click a la capa de u_terreno se debe mostrar UN MODAL del predio con los siguientes atributos:
 
     1. codigo
-    2. shape_area
+    2. area
 
 
 ## 3. Despliegue:
