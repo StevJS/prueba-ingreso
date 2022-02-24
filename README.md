@@ -39,11 +39,11 @@ La instrucción iniciará el proyecto en su entorno local y se abrirá en el nav
 
     2.5 Del siguiente servidor de mapas con url http://34.73.64.218:8080/geoserver/web/
 
-    2.5.1 Se debe cargar las capas 
+    2.5.1 Se debe cargar las siguientes capas al geovisor:
         repelon:rp_gc_predios_catastro
         repelon:rp_u_perimetro
 
-    2.5.2 Al darle click a la capa de u_terreno se debe mostrar UN MODAL del predio con los siguientes atributos:
+    2.5.2 Al darle click a la capa de rp_gc_predios_catastro se debe mostrar UN MODAL del predio con los siguientes atributos:
 
     1. codigo
     2. area
@@ -59,4 +59,3 @@ Para desplegar el proyecto, ejecute la siguiente instrucción:
 ### 2.2. Despliegue
 
 - Copie la carpeta *build* en el directorio de despliegue según el servidor web seleccionado. Posteriormente inicie el servidor
-
