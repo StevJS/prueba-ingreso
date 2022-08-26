@@ -56,6 +56,9 @@ Para desplegar el proyecto, ejecute la siguiente instrucción:
     
     npm run build
 
-### 2.2. Despliegue
+### 2.2. Resultado esperado
+Responder el correo de donde le enviaron la prueba con el link el repositorio que contiene la solución y una imagen resumen del resultado 
 
-- Copie la carpeta *build* en el directorio de despliegue según el servidor web seleccionado. Posteriormente inicie el servidor
+
+
+
