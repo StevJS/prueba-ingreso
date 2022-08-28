@@ -3,12 +3,15 @@ import 'leaflet-minimap/dist/Control.MiniMap.min.css';
 
 const L =require ('leaflet');
 import 'leaflet-minimap';
-import {standard_osm_mm} from '../layers/control-layers'
+import {standard_osm} from '../layers/control-layers'
+import { map } from '../map-control';
 
-export var minimap= new L.Control.MiniMap(standard_osm_mm, 
+// agregamos el minimapa y lo dejamos maximizado para mayor comodidad 
+export var minimap = new L.Control.MiniMap(standard_osm, 
 { 
     toggleDisplay: true ,
-    minimized:true,
+    minimized:false,
     position: "bottomleft"
-})
+}).addTo(map)
+
 
